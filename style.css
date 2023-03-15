@@ -73,3 +73,11 @@ input[type="radio"]{
 .btn{
     margin-bottom: 300px;
 }
+
+input[type="submit"]{
+    width: 90px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    margin-bottom: 50px; 
+}
