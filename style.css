@@ -7,16 +7,14 @@
     margin: auto;
     font-family: poppins,sans-serif;
     box-sizing: border-box;
-}
 
+}
 #title{
     margin-top: 30px;
     text-align: center;
     margin-bottom: 5px;
     font-weight: 400;
 }
-
-
 #description{
  margin-top: 0;
  text-align: center;
@@ -26,7 +24,7 @@
 #survey-form{
     background-color: rgba(27, 27, 50, 0.8);
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
     border-radius: 10px; 
     max-width: 500px;
     min-width: 200px;
@@ -38,7 +36,7 @@
    justify-content: center; 
    align-items: center;
     margin: 0 auto 1.25rem auto;
-    padding: 0.25rem;
+    padding: 0.25re;
 }
 
 label{
@@ -60,7 +58,7 @@ textarea{
     font-size: 16px;
     height: 100px
 }
-input[type="radio"]{
+input[type="radio"], input[type="checkbox"]{
     height: 20px;
     margin-left: 20px;
     width: 10px;
