@@ -1,18 +1,19 @@
-body{
-    background-repeat; no-repeat;
+.body{
+    background-repeat: no-repeat;
     background-size: cover;
     background-image:linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
-    width: 100vw;
-    height: 100vh;
+    width: 50%;
     color: white;
-    margin: 0;
+    margin: auto;
+    font-family: poppins,sans-serif;
+    box-sizing: border-box;
 }
 
 #title{
     margin-top: 30px;
     text-align: center;
     margin-bottom: 5px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
@@ -27,6 +28,8 @@ body{
     width: 80%;
     margin: 0 auto;
     border-radius: 10px; 
+    max-width: 500px;
+    min-width: 200px;
 }
 
 .form-div{
@@ -76,5 +79,5 @@ input[type="submit"]{
     color: white;
     background-color: green;
     border: 1px solid green;
-    margin-bottom: 50px; 
+    margin-bottom: 50px 
 }
