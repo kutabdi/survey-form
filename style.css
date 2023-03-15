@@ -42,6 +42,7 @@ label{
     margin-bottom: 10px;
     width: 90%;
     font-size: 18px;
+    padding-top: 8px;
 }
 
 input, select{
@@ -49,4 +50,22 @@ input, select{
     height: 40px;
     border-radius: 5px;
     font-size: 16px;
+}
+
+textarea{
+    width: 90px;
+    font-size: 16px;
+    height: 100px
+}
+input[type="radio"]{
+    height: 20px;
+    margin-left: 20px;
+    width: 10px;
+}
+
+.form-radio, .div-checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 5px
 }
